@@ -36,6 +36,7 @@ The below functions is used for the DOG of Images calculation. As we know at eac
 #### 1.5 Scale-space extrema in one octave
 
 This funtion find the scale space extrema for each octave present in the image. I have assumed a 3x3x3 kernel of ones which will slice the DOG images and then at each kernel position the mid point is the extrema or not checked. This kernel is moved accross all the DOG images in an octave to get the all extremum points. To take in account of the edge pixels of DOG in scale space I have zero padded the DOG to get if any extremum point is present or not in the DOG.
+
 ***Section-2***
 
 Some noise,scale,blur,rotatation is done to see what is happening in the SIFT extrema detection scheme.
